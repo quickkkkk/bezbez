@@ -5,7 +5,7 @@ import unittest
 try:
     from .discrete_log_lab2 import baby_step_giant_step, generate_discrete_log_problem
 except ImportError:
-    from discrete_log_lab2 import baby_step_giant_step, generate_discrete_log_problem
+    from lab2.discrete_log_lab2 import baby_step_giant_step, generate_discrete_log_problem
 
 
 class BabyStepGiantStepTests(unittest.TestCase):

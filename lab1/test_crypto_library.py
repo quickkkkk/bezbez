@@ -6,7 +6,7 @@ import unittest
 try:
     from .crypto_library import extended_gcd, fermat_primality_test, generate_numbers, mod_pow
 except ImportError:
-    from crypto_library import extended_gcd, fermat_primality_test, generate_numbers, mod_pow
+    from lab1.crypto_library import extended_gcd, fermat_primality_test, generate_numbers, mod_pow
 
 
 class CryptoLibraryTests(unittest.TestCase):

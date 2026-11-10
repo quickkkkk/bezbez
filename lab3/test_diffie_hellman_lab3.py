@@ -10,7 +10,7 @@ try:
         is_primitive_root,
     )
 except ImportError:
-    from diffie_hellman_lab3 import (
+    from lab3.diffie_hellman_lab3 import (
         build_shared_key,
         find_primitive_root,
         generate_diffie_hellman_parameters,
