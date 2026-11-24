@@ -153,6 +153,8 @@ def input_keys():
 def get_block_size(n):
     # определяем размер блока
     # чтобы число из блока было меньше N
+    if n <= 255:
+        raise ValueError("Для побайтового RSA модуль N должен быть больше 255")
     block_size = 1
 
     while 256 ** (block_size + 1) <= n:
